@@ -3,24 +3,24 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "index.html": "058f03c09ce934a4260d6cf16c307e16",
-"/": "058f03c09ce934a4260d6cf16c307e16",
+  "index.html": "adf15100dcad91fdf718edb3278943c4",
+"/": "adf15100dcad91fdf718edb3278943c4",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"main.dart.js": "58e5dda6a70112763c4086235839124f",
+"main.dart.js": "44a3d5cbdcb1e63f91e87a9f7387d6e6",
 "manifest.json": "be83e9811b562c64f5e4611203a42414",
-"favicon.png": "c27174e6dfb4375e3d1b2f65523844ee",
-"assets/AssetManifest.json": "4db123310553c95597bb3d93ef81a9a5",
+"favicon.png": "e50060a2bc0e29fd1a82a9482550a045",
+"assets/AssetManifest.json": "500220430edbc967a0bd2f23360c1fce",
 "assets/FontManifest.json": "032174a146c1a900a4a204ff0bb605d4",
-"assets/NOTICES": "58507df2a5ad69279dc488d78f4224d1",
+"assets/NOTICES": "c2354d735ba2d8131e8617bf4869b831",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
+"assets/assets/celeberation_image.webp": "fd645211e255c697bb9cbd33cc2910cc",
 "assets/assets/celeberation_image.jpg": "d69cb88f5400be80de64c663ab4bd726",
 "assets/assets/peace_day.jpeg": "a7fe9f2ba9b9d2bd84157f0f19f4d955",
-"assets/assets/celeberation_image.png": "66e7ea6d7d95faa57b43b685f95fd8a6",
 "assets/assets/bahnschrift.TTF": "b3483ec650bba4a4416d39c4d6030a99",
 "assets/assets/prism3centre.jpg": "2d973e83ccafc729ed6565d024c04d9b",
-"assets/assets/celeberation_image_orange.png": "787d4a287350c706fcf79f71ac982e29",
 "assets/assets/prism2.jpg": "b1cd6a2d4672cd11ee571a396085819d",
+"assets/assets/celeberation_image_orange.webp": "20d11c7baa572f2416ef7075f0c0ae4f",
 "assets/assets/title_logo.png": "c27174e6dfb4375e3d1b2f65523844ee",
 "assets/assets/rotary_pres.jpg": "d112b6dca5fadd646772309f4ae7faca",
 "assets/assets/pratibha.JPG": "5008c64b6e44271d5490822a84585aad",
@@ -36,10 +36,10 @@ const RESOURCES = {
 "assets/assets/rcbit/yukta.jpg": "55faa5fac7b6453990bd8514b05879f9",
 "assets/assets/rcbit/manish.jpg": "7d879597ad87ccb329c1f8e6fccf2d71",
 "assets/assets/rcbit/shahid.jpg": "cb56d4bdc4f98702fb844527009e4ab9",
+"assets/assets/rcbit/amisha.jpg": "e3bc5095b124ba2bee8f7c088117b265",
 "assets/assets/rcbit/kishan.jpeg": "22b661275377e48f80e35ad60228dac8",
 "assets/assets/rcbit/hritik.jpg": "b6f613895f0e8a59d8b0b6a120926864",
 "assets/assets/rcbit/thejusvani.jpg": "b9882d5952ba5cacaeb83a911fffa116",
-"assets/assets/rcbit/amisha.jpeg": "c9997e0f8669ab4844609941ead76f5c",
 "assets/assets/rcbit/anirudha.jpg": "e41c993bdbef84e599fa0df752047fcd",
 "assets/assets/rcbit/kajal.jpg": "7c4a15dcae07e6e4170a9ec10065ab42",
 "assets/assets/rcbit/harshit.jpg": "140c9bc396c1d267bc8c320f4a949f1d",
@@ -55,11 +55,11 @@ const RESOURCES = {
 "assets/assets/abacus.jpeg": "7358acf8adbf51991a4e1ee4f6b6b7df",
 "assets/assets/le_panga_event.jpeg": "76ce5dda42bd25fa0aadb9eca355e38b",
 "assets/assets/rbse_logo.png": "d8984344724c5ff334d01595c9dca72b",
-"assets/assets/abacus.jpg": "55b50ad92289abd4053e3557f3450496",
 "assets/assets/childre_day.jpg": "5764717a2d289b26e2ea64db50ef4255",
 "assets/assets/bgt.jpeg": "fb76f07269e054216148d0229ca36f34",
 "assets/assets/rotary_international.png": "428acbac11625687367b66387b88a9f4",
-"assets/fonts/MaterialIcons-Regular.otf": "a68d2a28c526b3b070aefca4bac93d25"
+"assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
+"version.json": "51f5307a70eeaecafea930ecc355c168"
 };
 
 // The application shell files that are downloaded before a service worker can
@@ -73,6 +73,7 @@ const CORE = [
 "assets/FontManifest.json"];
 // During install, the TEMP cache is populated with the application shell files.
 self.addEventListener("install", (event) => {
+  self.skipWaiting();
   return event.waitUntil(
     caches.open(TEMP).then((cache) => {
       return cache.addAll(
@@ -141,6 +142,9 @@ self.addEventListener("activate", function(event) {
 // The fetch handler redirects requests for RESOURCE files to the service
 // worker cache.
 self.addEventListener("fetch", (event) => {
+  if (event.request.method !== 'GET') {
+    return;
+  }
   var origin = self.location.origin;
   var key = event.request.url.substring(origin.length + 1);
   // Redirect URLs to the index.html
@@ -150,9 +154,10 @@ self.addEventListener("fetch", (event) => {
   if (event.request.url == origin || event.request.url.startsWith(origin + '/#') || key == '') {
     key = '/';
   }
-  // If the URL is not the RESOURCE list, skip the cache.
+  // If the URL is not the RESOURCE list then return to signal that the
+  // browser should take over.
   if (!RESOURCES[key]) {
-    return event.respondWith(fetch(event.request));
+    return;
   }
   // If the URL is the index.html, perform an online-first request.
   if (key == '/') {
@@ -176,10 +181,12 @@ self.addEventListener('message', (event) => {
   // SkipWaiting can be used to immediately activate a waiting service worker.
   // This will also require a page refresh triggered by the main worker.
   if (event.data === 'skipWaiting') {
-    return self.skipWaiting();
+    self.skipWaiting();
+    return;
   }
-  if (event.message === 'downloadOffline') {
+  if (event.data === 'downloadOffline') {
     downloadOffline();
+    return;
   }
 });
 
