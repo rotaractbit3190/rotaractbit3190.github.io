@@ -63264,11 +63264,11 @@ au:function(){var s=F.fz(0)
 this.d=s
 s=s.I$
 s.b9(s.c,new B.b3(new D.a65(this)),!1)},
-F:function(c5,c6){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5=this,a6=null,a7="title_logo.png",a8="Register",a9="Your application id is :\n",b0="Copy to Clipboard",b1="Please pay using any UPI apps on 9424992832@ybl . Mention this application id in remarks and message section.\nThank You!!!",b2="New Registeration",b3="Go Back to Home",b4="Enter Your Name",b5="Email-Id",b6="Enter your email id",b7="Phone number",b8="^[0-9]*$",b9="Enter Phone number",c0="Instagram Id",c1=F.aQ(c6,!1).a,c2=c1.a,c3=c2<800,c4=c1.b
-a5.e=a5.f<c4*0.4?0.75:1
-s=Y.fx(c6,t.l)
-if(s.c)c2=new Z.hS(a6)
-else{if(c3){r=U.aN(a7,C.an,c4*0.08,a6,a6)
+F:function(c4,c5){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5=this,a6=null,a7="title_logo.png",a8="Register",a9="Your application id is :\n",b0="Copy to Clipboard",b1="New Registeration",b2="Go Back to Home",b3="Enter Your Name",b4="Email-Id",b5="Enter your email id",b6="Phone number",b7="^[0-9]*$",b8="Enter Phone number",b9="Instagram Id",c0=F.aQ(c5,!1).a,c1=c0.a,c2=c1<800,c3=c0.b
+a5.e=a5.f<c3*0.4?0.75:1
+s=Y.fx(c5,t.l)
+if(s.c)c1=new Z.hS(a6)
+else{if(c2){r=U.aN(a7,C.an,c3*0.08,a6,a6)
 r=E.iO(P.av(C.e.a4(255*a5.e),158,158,158),r)}else{r=C.d.h(0,900)
 q=a5.e
 r.toString
@@ -63279,122 +63279,122 @@ p=a5.e
 q.toString
 q=q.a
 q=P.av(C.e.a4(255*p),(16711680&q)>>>16,(65280&q)>>>8,(255&q)>>>0)
-p=c2*0.1
+p=c1*0.1
 o=U.aN(a7,a6,250,a6,a6)
 n=a5.x
-m=R.a_(!1,!0,L.j("Home",a6,a6,a6,A.a5(a6,a6,n[0]?C.r:C.k,a6,a6,a6,a6,a6,"Montserrat",a6,a6,18,a6,C.t,a6,a6,!0,a6,a6,a6,a6,a6,a6),a6),a6,!0,a6,a6,a6,a6,a6,a6,a6,new D.a5f(a5),a6,new D.a5g(c6),a6,a6,a6)
-l=c2/20
+m=R.a_(!1,!0,L.j("Home",a6,a6,a6,A.a5(a6,a6,n[0]?C.r:C.k,a6,a6,a6,a6,a6,"Montserrat",a6,a6,18,a6,C.t,a6,a6,!0,a6,a6,a6,a6,a6,a6),a6),a6,!0,a6,a6,a6,a6,a6,a6,a6,new D.a5f(a5),a6,new D.a5g(c5),a6,a6,a6)
+l=c1/20
 k=T.w(a6,a6,l)
-j=R.a_(!1,!0,L.j("Events",a6,a6,a6,A.a5(a6,a6,n[1]?C.r:C.k,a6,a6,a6,a6,a6,a6,a6,a6,18,a6,C.t,a6,a6,!0,a6,a6,a6,a6,a6,a6),a6),a6,!0,a6,a6,a6,a6,a6,a6,a6,new D.a5h(a5),a6,new D.a5s(c6),a6,a6,a6)
+j=R.a_(!1,!0,L.j("Events",a6,a6,a6,A.a5(a6,a6,n[1]?C.r:C.k,a6,a6,a6,a6,a6,a6,a6,a6,18,a6,C.t,a6,a6,!0,a6,a6,a6,a6,a6,a6),a6),a6,!0,a6,a6,a6,a6,a6,a6,a6,new D.a5h(a5),a6,new D.a5s(c5),a6,a6,a6)
 i=T.w(a6,a6,l)
-h=R.a_(!1,!0,L.j("Rotary",a6,a6,a6,A.a5(a6,a6,n[2]?C.r:C.k,a6,C.b9,a6,a6,a6,a6,a6,a6,18,a6,C.t,a6,a6,!0,a6,a6,a6,a6,a6,a6),a6),a6,!0,a6,a6,a6,a6,a6,a6,a6,new D.a5D(a5),a6,new D.a5O(c6),a6,a6,a6)
+h=R.a_(!1,!0,L.j("Rotary",a6,a6,a6,A.a5(a6,a6,n[2]?C.r:C.k,a6,C.b9,a6,a6,a6,a6,a6,a6,18,a6,C.t,a6,a6,!0,a6,a6,a6,a6,a6,a6),a6),a6,!0,a6,a6,a6,a6,a6,a6,a6,new D.a5D(a5),a6,new D.a5O(c5),a6,a6,a6)
 g=T.w(a6,a6,l)
-f=R.a_(!1,!0,L.j("Board",a6,a6,a6,A.a5(a6,a6,n[3]?C.r:C.k,a6,a6,a6,a6,a6,a6,a6,a6,18,a6,C.t,a6,a6,!0,a6,a6,a6,a6,a6,a6),a6),a6,!0,a6,a6,a6,a6,a6,a6,a6,new D.a5Z(a5),a6,new D.a61(c6),a6,a6,a6)
+f=R.a_(!1,!0,L.j("Board",a6,a6,a6,A.a5(a6,a6,n[3]?C.r:C.k,a6,a6,a6,a6,a6,a6,a6,a6,18,a6,C.t,a6,a6,!0,a6,a6,a6,a6,a6,a6),a6),a6,!0,a6,a6,a6,a6,a6,a6,a6,new D.a5Z(a5),a6,new D.a61(c5),a6,a6,a6)
 l=T.w(a6,a6,l)
 e=t.t
-l=T.eE(T.b6(H.b([m,k,j,i,h,g,f,l,R.a_(!1,!0,L.j("Contact Us",a6,a6,a6,A.a5(a6,a6,n[4]?C.r:C.k,a6,a6,a6,a6,a6,a6,a6,a6,18,a6,C.t,a6,a6,!0,a6,a6,a6,a6,a6,a6),a6),a6,!0,a6,a6,a6,a6,a6,a6,a6,new D.a62(a5),a6,new D.a63(c6),a6,a6,a6)],e),C.l,C.b2,C.i))
-m=R.a_(!1,!0,L.j("Log In",a6,a6,a6,B.dI(n[5]?C.r:C.k,17,C.u),a6),a6,!0,a6,a6,a6,a6,a6,a6,a6,new D.a64(a5),a6,new D.a5i(c6),a6,a6,a6)
-k=T.w(a6,a6,c2*0.01)
-r=new Q.eW(V.dU(M.a3(a6,new T.aI(new V.a6(p,20,p,20),T.b6(H.b([o,l,m,k,B.d4(a6,L.a0(C.aq,s.b?C.p:C.d.h(0,400),a6),24,new D.a5j(s),a6)],e),C.l,C.m,C.i),a6),C.j,q,a6,a6,a6,a6,a6,a6,a6,a6,a6),r,a6,a6),new P.a4(c2,c4*0.15),a6)}if(c3){q=t.t
+l=T.eE(T.b6(H.b([m,k,j,i,h,g,f,l,R.a_(!1,!0,L.j("Contact Us",a6,a6,a6,A.a5(a6,a6,n[4]?C.r:C.k,a6,a6,a6,a6,a6,a6,a6,a6,18,a6,C.t,a6,a6,!0,a6,a6,a6,a6,a6,a6),a6),a6,!0,a6,a6,a6,a6,a6,a6,a6,new D.a62(a5),a6,new D.a63(c5),a6,a6,a6)],e),C.l,C.b2,C.i))
+m=R.a_(!1,!0,L.j("Log In",a6,a6,a6,B.dI(n[5]?C.r:C.k,17,C.u),a6),a6,!0,a6,a6,a6,a6,a6,a6,a6,new D.a64(a5),a6,new D.a5i(c5),a6,a6,a6)
+k=T.w(a6,a6,c1*0.01)
+r=new Q.eW(V.dU(M.a3(a6,new T.aI(new V.a6(p,20,p,20),T.b6(H.b([o,l,m,k,B.d4(a6,L.a0(C.aq,s.b?C.p:C.d.h(0,400),a6),24,new D.a5j(s),a6)],e),C.l,C.m,C.i),a6),C.j,q,a6,a6,a6,a6,a6,a6,a6,a6,a6),r,a6,a6),new P.a4(c1,c3*0.15),a6)}if(c2){q=t.t
 p=T.ah(H.b([U.aN("assets/title_logo.png",a6,120,0.1,250),L.j("Rotaract Club of BIT",a6,a6,a6,a6,a6)],q),C.l,C.m,C.i)
 p=T.j_(p,new S.cj(s.b?C.d.h(0,400):C.d.h(0,900),a6,a6,a6,a6,a6,C.Y))
 o=L.j("Home",a6,a6,a6,a6,a6)
-o=Q.af(a6,L.a0(C.bC,a6,a6),new D.a5k(c6),o)
+o=Q.af(a6,L.a0(C.bC,a6,a6),new D.a5k(c5),o)
 n=L.j("Rotary",a6,a6,a6,a6,a6)
 m=L.a0(C.bF,a6,a6)
-n=Q.af(C.d.h(0,600),m,new D.a5l(c6),n)
+n=Q.af(C.d.h(0,600),m,new D.a5l(c5),n)
 m=L.j("Events",a6,a6,a6,a6,a6)
-m=Q.af(a6,L.a0(C.bA,a6,a6),new D.a5m(c6),m)
+m=Q.af(a6,L.a0(C.bA,a6,a6),new D.a5m(c5),m)
 l=L.j("Board",a6,a6,a6,a6,a6)
-l=Q.af(a6,L.a0(C.bD,a6,a6),new D.a5n(c6),l)
+l=Q.af(a6,L.a0(C.bD,a6,a6),new D.a5n(c5),l)
 k=L.j("Contact us",a6,a6,a6,a6,a6)
-k=Q.af(a6,L.a0(C.bB,a6,a6),new D.a5o(c6),k)
+k=Q.af(a6,L.a0(C.bB,a6,a6),new D.a5o(c5),k)
 if(s.c){j=L.j("DashBoard",a6,a6,a6,a6,a6)
-j=Q.af(a6,L.a0(C.ae,a6,a6),new D.a5p(c6),j)
+j=Q.af(a6,L.a0(C.ae,a6,a6),new D.a5p(c5),j)
 i=L.j("Sign Out",a6,a6,a6,a6,a6)
 i=T.ah(H.b([j,Q.af(a6,U.cm(u.Z,a6),new D.a5q(s),i)],q),C.l,C.m,C.i)
 j=i}else{j=L.j(a8,a6,a6,a6,a6,a6)
-j=Q.af(a6,L.a0(C.bE,C.k,a6),new D.a5r(c6),j)
+j=Q.af(a6,L.a0(C.bE,C.k,a6),new D.a5r(c5),j)
 i=L.j("Log In",a6,a6,a6,a6,a6)
-i=T.ah(H.b([j,Q.af(a6,L.a0(C.ae,a6,a6),new D.a5t(c6),i)],q),C.l,C.m,C.i)
+i=T.ah(H.b([j,Q.af(a6,L.a0(C.ae,a6,a6),new D.a5t(c5),i)],q),C.l,C.m,C.i)
 j=i}q=Z.iZ(B.i3(H.b([p,o,n,m,l,k,j],q),a6,C.ai,!1))}else q=a6
 p=a5.d
-o=K.ap(c6,!1).rx
-n=c3?c4*0.3:c4*0.45
+o=K.ap(c5,!1).rx
+n=c2?c3*0.3:c3*0.45
 m=s.b?"celeberation_image.webp":"celeberation_image_orange.webp"
 l=t.t
-n=T.dL(C.aA,H.b([M.a3(a6,U.aN(m,c3?C.aM:C.G,a6,a6,a6),C.j,a6,a6,a6,a6,n,a6,a6,a6,a6,c2)],l),C.ak,a6,a6)
-if(c3)if(a5.db){c2=F.aQ(c6,!1).a
-c4=F.aQ(c6,!1).a
-c4=M.a3(a6,T.cR(G.x9(C.f_,50),a6,a6),C.j,a6,a6,a6,a6,c2.b,a6,a6,a6,a6,c4.a)
-c2=c4}else{m=c4*0.05
-k=c4*0.02
+n=T.dL(C.aA,H.b([M.a3(a6,U.aN(m,c2?C.aM:C.G,a6,a6,a6),C.j,a6,a6,a6,a6,n,a6,a6,a6,a6,c1)],l),C.ak,a6,a6)
+if(c2)if(a5.db){c1=F.aQ(c5,!1).a
+c3=F.aQ(c5,!1).a
+c3=M.a3(a6,T.cR(G.x9(C.f_,50),a6,a6),C.j,a6,a6,a6,a6,c1.b,a6,a6,a6,a6,c3.a)
+c1=c3}else{m=c3*0.05
+k=c3*0.02
 if(a5.dy){j=L.j(a9,a6,a6,a6,A.a5(a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,20,a6,a6,a6,a6,!0,a6,a6,a6,a6,a6,a6),a6)
 i=O.qa(a5.cy,B.aW(a6,22,a6,a6))
 k=T.w(a6,k,a6)
 h=D.js(L.j(b0,a6,a6,a6,B.UE(s.b?C.bo.h(0,400):C.a5,16,C.t),a6),C.p,2,new D.a5u(a5))
-g=T.w(a6,c4*0.1,a6)
-f=O.qa(b1,A.a5(a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,20,a6,a6,a6,a6,!0,a6,a6,a6,a6,a6,a6))
+g=T.w(a6,c3*0.1,a6)
+f=O.qa("Please pay using any UPI apps on 9424992832@ybl . Mention this application id in remarks and message section.\nThank You!!!",A.a5(a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,20,a6,a6,a6,a6,!0,a6,a6,a6,a6,a6,a6))
 e=a5.fr
-d=R.a_(!1,!0,L.j(b2,a6,a6,a6,A.a5(a6,a6,e[0]?C.av.h(0,800):C.k,a6,a6,a6,a6,a6,a6,a6,a6,20,a6,a6,a6,a6,!0,a6,a6,a6,a6,a6,a6),a6),a6,!0,a6,a6,a6,a6,a6,a6,a6,new D.a5v(a5),a6,new D.a5w(a5,c6),a6,a6,a6)
-c2=M.a3(a6,T.ah(H.b([j,i,k,h,g,f,T.eE(T.ah(H.b([d,R.a_(!1,!0,L.j(b3,a6,a6,a6,A.a5(a6,a6,e[1]?C.av.h(0,800):C.k,a6,a6,a6,a6,a6,a6,a6,a6,20,a6,a6,a6,a6,!0,a6,a6,a6,a6,a6,a6),a6),a6,!0,a6,a6,a6,a6,a6,a6,a6,new D.a5x(a5),a6,new D.a5y(a5,c6),a6,a6,a6)],l),C.l,C.cG,C.i))],l),C.M,C.m,C.i),C.j,a6,a6,a6,a6,c4*0.5,a6,a6,a6,a6,c2)}else{c2=L.j("Name",a6,a6,a6,B.aW(a6,24,a6,a6),a6)
-j=E.cH(!1,L.cy(a6,a6,a6,a6,a6,a6,a6,!0,a6,a6,a6,a6,a6,a6,a6,C.a0,a6,a6,a6,!0,a6,a6,a6,a6,a6,b4,a6,a6,!1,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6),a6,C.m_,1,a6,!1,new D.a5z(a5),a6,a6)
-c4*=0.08
-i=T.w(a6,c4,a6)
-h=L.j(b5,a6,a6,a6,B.aW(a6,24,a6,a6),a6)
-g=E.cH(!0,L.cy(a6,a6,a6,a6,a6,a6,a6,!0,a6,a6,a6,a6,a6,a6,a6,C.a0,a6,a6,a6,!0,a6,a6,a6,a6,a6,b6,a6,a6,!1,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6),a6,C.aK,1,a6,!1,new D.a5A(a5),a6,a6)
-f=T.w(a6,c4,a6)
-e=L.j(b7,a6,a6,a6,B.aW(a6,24,a6,a6),a6)
-d=H.b([new B.nS(P.dK(b8,!0),!0),new B.mQ(10)],t.a8)
-d=E.cH(!0,L.cy(a6,a6,a6,a6,a6,a6,a6,!0,a6,a6,a6,a6,a6,a6,a6,C.a0,a6,a6,a6,!0,a6,a6,a6,a6,a6,b9,a6,a6,!1,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6),d,C.hN,1,1,!1,new D.a5B(a5),new D.a5C(a5),new D.a5E())
-c=T.w(a6,c4,a6)
+d=R.a_(!1,!0,L.j(b1,a6,a6,a6,A.a5(a6,a6,e[0]?C.av.h(0,800):C.k,a6,a6,a6,a6,a6,a6,a6,a6,20,a6,a6,a6,a6,!0,a6,a6,a6,a6,a6,a6),a6),a6,!0,a6,a6,a6,a6,a6,a6,a6,new D.a5v(a5),a6,new D.a5w(a5,c5),a6,a6,a6)
+c1=M.a3(a6,T.ah(H.b([j,i,k,h,g,f,T.eE(T.ah(H.b([d,R.a_(!1,!0,L.j(b2,a6,a6,a6,A.a5(a6,a6,e[1]?C.av.h(0,800):C.k,a6,a6,a6,a6,a6,a6,a6,a6,20,a6,a6,a6,a6,!0,a6,a6,a6,a6,a6,a6),a6),a6,!0,a6,a6,a6,a6,a6,a6,a6,new D.a5x(a5),a6,new D.a5y(a5,c5),a6,a6,a6)],l),C.l,C.cG,C.i))],l),C.M,C.m,C.i),C.j,a6,a6,a6,a6,c3*0.5,a6,a6,a6,a6,c1)}else{c1=L.j("Name",a6,a6,a6,B.aW(a6,24,a6,a6),a6)
+j=E.cH(!1,L.cy(a6,a6,a6,a6,a6,a6,a6,!0,a6,a6,a6,a6,a6,a6,a6,C.a0,a6,a6,a6,!0,a6,a6,a6,a6,a6,b3,a6,a6,!1,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6),a6,C.m_,1,a6,!1,new D.a5z(a5),a6,a6)
+c3*=0.08
+i=T.w(a6,c3,a6)
+h=L.j(b4,a6,a6,a6,B.aW(a6,24,a6,a6),a6)
+g=E.cH(!0,L.cy(a6,a6,a6,a6,a6,a6,a6,!0,a6,a6,a6,a6,a6,a6,a6,C.a0,a6,a6,a6,!0,a6,a6,a6,a6,a6,b5,a6,a6,!1,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6),a6,C.aK,1,a6,!1,new D.a5A(a5),a6,a6)
+f=T.w(a6,c3,a6)
+e=L.j(b6,a6,a6,a6,B.aW(a6,24,a6,a6),a6)
+d=H.b([new B.nS(P.dK(b7,!0),!0),new B.mQ(10)],t.a8)
+d=E.cH(!0,L.cy(a6,a6,a6,a6,a6,a6,a6,!0,a6,a6,a6,a6,a6,a6,a6,C.a0,a6,a6,a6,!0,a6,a6,a6,a6,a6,b8,a6,a6,!1,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6),d,C.hN,1,1,!1,new D.a5B(a5),new D.a5C(a5),new D.a5E())
+c=T.w(a6,c3,a6)
 b=L.j("Institute Name",a6,a6,a6,B.aW(a6,24,a6,a6),a6)
 a=E.cH(!1,L.cy(a6,a6,a6,a6,a6,a6,a6,!0,a6,a6,a6,a6,a6,a6,a6,C.a0,a6,a6,a6,!0,a6,a6,a6,a6,a6,"Enter your Institute name",a6,a6,!1,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6),a6,C.aK,1,a6,!1,new D.a5F(a5),a6,new D.a5G())
-c4=T.w(a6,c4,a6)
-a0=L.j(c0,a6,a6,a6,B.aW(a6,24,a6,a6),a6)
+c3=T.w(a6,c3,a6)
+a0=L.j(b9,a6,a6,a6,B.aW(a6,24,a6,a6),a6)
 a1=E.cH(!1,L.cy(a6,a6,a6,a6,a6,a6,a6,!0,a6,a6,a6,a6,a6,a6,a6,C.a0,a6,a6,a6,!0,a6,a6,a6,a6,a6,"Enter your Instagram Id",a6,a6,!1,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6),a6,C.aK,1,a6,!1,new D.a5H(a5),a6,new D.a5I())
 k=T.w(a6,k,a6)
 a2=s.b
 a3=a2?C.k:C.p
-c2=A.uQ(T.ah(H.b([c2,j,i,h,g,f,e,d,c,b,a,c4,a0,a1,k,new T.aI(new V.a6(8,8,8,8),D.js(L.j(a8,a6,a6,a6,A.a5(a6,a6,a2?C.d.h(0,400):C.a5,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,!0,a6,a6,a6,a6,a6,a6),a6),a3,2,new D.a5J(a5)),a6)],l),C.M,C.m,C.i),a5.r)}c2=new T.aI(new V.a6(16,m,16,m),c2,a6)}else if(a5.db){c2=F.aQ(c6,!1).a
-c4=F.aQ(c6,!1).a
-c4=M.a3(a6,T.cR(G.x9(C.f_,50),a6,a6),C.j,a6,a6,a6,a6,c2.b,a6,a6,a6,a6,c4.a)
-c2=c4}else{m=c4*0.2
-k=c2*0.3
-j=c4*0.02
+c1=A.uQ(T.ah(H.b([c1,j,i,h,g,f,e,d,c,b,a,c3,a0,a1,k,new T.aI(new V.a6(8,8,8,8),D.js(L.j(a8,a6,a6,a6,A.a5(a6,a6,a2?C.d.h(0,400):C.a5,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,!0,a6,a6,a6,a6,a6,a6),a6),a3,2,new D.a5J(a5)),a6)],l),C.M,C.m,C.i),a5.r)}c1=new T.aI(new V.a6(16,m,16,m),c1,a6)}else if(a5.db){c1=F.aQ(c5,!1).a
+c3=F.aQ(c5,!1).a
+c3=M.a3(a6,T.cR(G.x9(C.f_,50),a6,a6),C.j,a6,a6,a6,a6,c1.b,a6,a6,a6,a6,c3.a)
+c1=c3}else{m=c3*0.2
+k=c1*0.3
+j=c3*0.02
 if(a5.dy){i=L.j(a9,a6,a6,a6,A.a5(a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,20,a6,a6,a6,a6,!0,a6,a6,a6,a6,a6,a6),a6)
 h=O.qa(a5.cy,B.aW(a6,22,a6,a6))
 j=T.w(a6,j,a6)
 g=D.js(L.j(b0,a6,a6,a6,B.UE(s.b?C.bo.h(0,400):C.a5,16,C.t),a6),C.p,2,new D.a5K(a5))
-f=T.w(a6,c4*0.1,a6)
-e=O.qa(b1,A.a5(a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,20,a6,a6,a6,a6,!0,a6,a6,a6,a6,a6,a6))
+f=T.w(a6,c3*0.1,a6)
+e=O.qa("Registration fees to be paid at-\n9199348774 (G-PAY/PHONE PAY)\nMention this application id in remarks and message section.\n\nYour registration will be confirmed through whatsapp \nThank You!!!",A.a5(a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,20,a6,a6,a6,a6,!0,a6,a6,a6,a6,a6,a6))
 d=a5.fr
-c=R.a_(!1,!0,L.j(b2,a6,a6,a6,A.a5(a6,a6,d[0]?C.av.h(0,800):C.k,a6,a6,a6,a6,a6,a6,a6,a6,20,a6,a6,a6,a6,!0,a6,a6,a6,a6,a6,a6),a6),a6,!0,a6,a6,a6,a6,a6,a6,a6,new D.a5L(a5),a6,new D.a5M(a5,c6),a6,a6,a6)
-c2=M.a3(a6,T.ah(H.b([i,h,j,g,f,e,T.eE(T.b6(H.b([c,R.a_(!1,!0,L.j(b3,a6,a6,a6,A.a5(a6,a6,d[1]?C.av.h(0,800):C.k,a6,a6,a6,a6,a6,a6,a6,a6,20,a6,a6,a6,a6,!0,a6,a6,a6,a6,a6,a6),a6),a6,!0,a6,a6,a6,a6,a6,a6,a6,new D.a5N(a5),a6,new D.a5P(a5,c6),a6,a6,a6)],l),C.l,C.cG,C.i))],l),C.M,C.m,C.i),C.j,a6,a6,a6,a6,c4*0.5,a6,a6,a6,a6,c2)}else{c2=L.j("Name",a6,a6,a6,B.aW(a6,24,a6,a6),a6)
-i=E.cH(!1,L.cy(a6,a6,a6,a6,a6,a6,a6,!0,a6,a6,a6,a6,a6,a6,a6,C.a0,a6,a6,a6,!0,a6,a6,a6,a6,a6,b4,a6,a6,!1,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6),a6,C.m_,1,a6,!1,new D.a5Q(a5),a6,a6)
-c4*=0.08
-h=T.w(a6,c4,a6)
-g=L.j(b5,a6,a6,a6,B.aW(a6,24,a6,a6),a6)
-f=E.cH(!0,L.cy(a6,a6,a6,a6,a6,a6,a6,!0,a6,a6,a6,a6,a6,a6,a6,C.a0,a6,a6,a6,!0,a6,a6,a6,a6,a6,b6,a6,a6,!1,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6),a6,C.aK,1,a6,!1,new D.a5R(a5),a6,a6)
-e=T.w(a6,c4,a6)
-d=L.j(b7,a6,a6,a6,B.aW(a6,24,a6,a6),a6)
-c=H.b([new B.nS(P.dK(b8,!0),!0),new B.mQ(10)],t.a8)
-c=E.cH(!0,L.cy(a6,a6,a6,a6,a6,a6,a6,!0,a6,a6,a6,a6,a6,a6,a6,C.a0,a6,a6,a6,!0,a6,a6,a6,a6,a6,b9,a6,a6,!1,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6),c,C.hN,1,1,!1,new D.a5S(a5),new D.a5T(a5),new D.a5U())
-b=T.w(a6,c4,a6)
+c=R.a_(!1,!0,L.j(b1,a6,a6,a6,A.a5(a6,a6,d[0]?C.av.h(0,800):C.k,a6,a6,a6,a6,a6,a6,a6,a6,20,a6,a6,a6,a6,!0,a6,a6,a6,a6,a6,a6),a6),a6,!0,a6,a6,a6,a6,a6,a6,a6,new D.a5L(a5),a6,new D.a5M(a5,c5),a6,a6,a6)
+c1=M.a3(a6,T.ah(H.b([i,h,j,g,f,e,T.eE(T.b6(H.b([c,R.a_(!1,!0,L.j(b2,a6,a6,a6,A.a5(a6,a6,d[1]?C.av.h(0,800):C.k,a6,a6,a6,a6,a6,a6,a6,a6,20,a6,a6,a6,a6,!0,a6,a6,a6,a6,a6,a6),a6),a6,!0,a6,a6,a6,a6,a6,a6,a6,new D.a5N(a5),a6,new D.a5P(a5,c5),a6,a6,a6)],l),C.l,C.cG,C.i))],l),C.M,C.m,C.i),C.j,a6,a6,a6,a6,c3*0.5,a6,a6,a6,a6,c1)}else{c1=L.j("Name",a6,a6,a6,B.aW(a6,24,a6,a6),a6)
+i=E.cH(!1,L.cy(a6,a6,a6,a6,a6,a6,a6,!0,a6,a6,a6,a6,a6,a6,a6,C.a0,a6,a6,a6,!0,a6,a6,a6,a6,a6,b3,a6,a6,!1,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6),a6,C.m_,1,a6,!1,new D.a5Q(a5),a6,a6)
+c3*=0.08
+h=T.w(a6,c3,a6)
+g=L.j(b4,a6,a6,a6,B.aW(a6,24,a6,a6),a6)
+f=E.cH(!0,L.cy(a6,a6,a6,a6,a6,a6,a6,!0,a6,a6,a6,a6,a6,a6,a6,C.a0,a6,a6,a6,!0,a6,a6,a6,a6,a6,b5,a6,a6,!1,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6),a6,C.aK,1,a6,!1,new D.a5R(a5),a6,a6)
+e=T.w(a6,c3,a6)
+d=L.j(b6,a6,a6,a6,B.aW(a6,24,a6,a6),a6)
+c=H.b([new B.nS(P.dK(b7,!0),!0),new B.mQ(10)],t.a8)
+c=E.cH(!0,L.cy(a6,a6,a6,a6,a6,a6,a6,!0,a6,a6,a6,a6,a6,a6,a6,C.a0,a6,a6,a6,!0,a6,a6,a6,a6,a6,b8,a6,a6,!1,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6),c,C.hN,1,1,!1,new D.a5S(a5),new D.a5T(a5),new D.a5U())
+b=T.w(a6,c3,a6)
 a=L.j("Institution Name",a6,a6,a6,B.aW(a6,24,a6,a6),a6)
 a0=E.cH(!1,L.cy(a6,a6,a6,a6,a6,a6,a6,!0,a6,a6,a6,a6,a6,a6,a6,C.a0,a6,a6,a6,!0,a6,a6,a6,a6,a6,"Enter your Institute Name",a6,a6,!1,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6),a6,C.aK,1,a6,!1,new D.a5V(a5),a6,new D.a5W())
-c4=T.w(a6,c4,a6)
-a1=L.j(c0,a6,a6,a6,B.aW(a6,24,a6,a6),a6)
+c3=T.w(a6,c3,a6)
+a1=L.j(b9,a6,a6,a6,B.aW(a6,24,a6,a6),a6)
 a2=E.cH(!1,L.cy(a6,a6,a6,a6,a6,a6,a6,!0,a6,a6,a6,a6,a6,a6,a6,C.a0,a6,a6,a6,!0,a6,a6,a6,a6,a6,"Enter Instagram Id",a6,a6,!1,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6),a6,C.aK,1,a6,!1,new D.a5X(a5),a6,new D.a5Y())
 j=T.w(a6,j,a6)
 a3=s.b
 a4=a3?C.k:C.p
-c2=A.uQ(T.ah(H.b([c2,i,h,g,f,e,d,c,b,a,a0,c4,a1,a2,j,new T.aI(new V.a6(8,8,8,8),D.js(L.j(a8,a6,a6,a6,A.a5(a6,a6,a3?C.p:C.a5,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,!0,a6,a6,a6,a6,a6,a6),a6),a4,2,new D.a6_(a5)),a6)],l),C.M,C.m,C.i),a5.r)}c2=new T.aI(new V.a6(k,m,k,m),c2,a6)}p=E.jy(M.a3(a6,T.ah(H.b([n,c2,new N.dW(a6)],l),C.l,C.m,C.i),C.j,o,a6,a6,a6,a6,a6,a6,a6,a6,a6),p)
-if(c3){c2=s.b
-c4=c2?C.cH:C.am
-c4=E.mm(c4,L.a0(C.aq,c2?C.p:C.d.h(0,600),a6),!1,new D.a60(s))
-c2=c4}else c2=a6
-c2=M.jw(r,p,q,c2)}return c2},
+c1=A.uQ(T.ah(H.b([c1,i,h,g,f,e,d,c,b,a,a0,c3,a1,a2,j,new T.aI(new V.a6(8,8,8,8),D.js(L.j(a8,a6,a6,a6,A.a5(a6,a6,a3?C.p:C.a5,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,!0,a6,a6,a6,a6,a6,a6),a6),a4,2,new D.a6_(a5)),a6)],l),C.M,C.m,C.i),a5.r)}c1=new T.aI(new V.a6(k,m,k,m),c1,a6)}p=E.jy(M.a3(a6,T.ah(H.b([n,c1,new N.dW(a6)],l),C.l,C.m,C.i),C.j,o,a6,a6,a6,a6,a6,a6,a6,a6,a6),p)
+if(c2){c1=s.b
+c3=c1?C.cH:C.am
+c3=E.mm(c3,L.a0(C.aq,c1?C.p:C.d.h(0,600),a6),!1,new D.a60(s))
+c1=c3}else c1=a6
+c1=M.jw(r,p,q,c1)}return c1},
 gas:function(a){return this.y}}
 D.a4L.prototype={
 $0:function(){var s=this.a,r=C.b.gbv(s.d.d).y
