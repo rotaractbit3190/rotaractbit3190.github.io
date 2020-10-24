@@ -65587,7 +65587,7 @@ var $async$pv=P.K(function(a,b){if(a===1){o=b
 s=p}while(true)switch(s){case 0:p=4
 k=m.a
 s=7
-return P.V(O.ajv(k,k.gco().kv(0,"codigo")).D(0,P.al(["name",m.c,"email",m.e,"phone",m.d,"institution_name",m.f,"city",m.r],t.X,t.z)),$async$pv)
+return P.V(O.ajv(k,k.gco().kv(0,"codigo")).D(0,P.al(["name",m.c,"email",m.e,"phone",m.d,"institution_name",m.f,"city",m.r,"paid",!1,"informed",!1],t.X,t.z)),$async$pv)
 case 7:k=b
 q=k
 s=1
