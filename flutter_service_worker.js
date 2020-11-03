@@ -3,17 +3,18 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "index.html": "43c84c9cfd6e57333e27b3e3f4c06238",
-"/": "43c84c9cfd6e57333e27b3e3f4c06238",
+  "index.html": "9297a2cdea913b2e588e11c6cf268a2d",
+"/": "9297a2cdea913b2e588e11c6cf268a2d",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"main.dart.js": "eac519c9cb76215eacc1df48d4af07e0",
+"main.dart.js": "f52dbd861ddebd9fb1996e0ddbdc7c5b",
 "manifest.json": "be83e9811b562c64f5e4611203a42414",
 "favicon.png": "e50060a2bc0e29fd1a82a9482550a045",
-"assets/AssetManifest.json": "500220430edbc967a0bd2f23360c1fce",
+"assets/AssetManifest.json": "ff7cf011367a1bd02868f93fa9ba26b4",
 "assets/FontManifest.json": "032174a146c1a900a4a204ff0bb605d4",
 "assets/NOTICES": "c2354d735ba2d8131e8617bf4869b831",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
+"assets/assets/rcbit_logo.png": "53aa502052fd6e7aefad3a1fb1a7429b",
 "assets/assets/celeberation_image.webp": "fd645211e255c697bb9cbd33cc2910cc",
 "assets/assets/celeberation_image.jpg": "d69cb88f5400be80de64c663ab4bd726",
 "assets/assets/peace_day.jpeg": "a7fe9f2ba9b9d2bd84157f0f19f4d955",
