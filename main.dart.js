@@ -64894,7 +64894,7 @@ V.acL.prototype={
 $1:function(a){var s,r=document.createElement("iframe")
 new W.fN(window,"message",!1,t.rx).a5(0,new V.acK(this.a,this.b,this.c))
 r.webkitRequestFullscreen()
-r.src="https://shreyashjiodndian2.github.io/"
+r.src="https://shreyashjiodndian2.github.io/index.html"
 s=r.style
 s.border="none"
 return r},
