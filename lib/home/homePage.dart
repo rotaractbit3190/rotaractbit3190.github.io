@@ -53,7 +53,7 @@ class _HomePageState extends State<HomePage> {
 
   List _isHovering_people = [false, false];
   List _isHovering = [false, false, false, false, false, false, false];
-  bool isPoped = false;
+  bool isPopped = false;
   @override
   Widget build(BuildContext context) {
     var screenSize = MediaQuery.of(context).size;
@@ -64,7 +64,7 @@ class _HomePageState extends State<HomePage> {
     final themeChange = Provider.of<DarkThemeProvider>(context);
     Future.delayed(
         Duration.zero,
-        () => !isPoped
+        () => !isPopped
             ? showDialog(
                 context: context,
                 builder: (context) => AlertDialog(
@@ -81,7 +81,7 @@ class _HomePageState extends State<HomePage> {
                               Navigator.of(context).pop();
                               Navigator.of(context).pop();
                               setState(() {
-                                isPoped = true;
+                                isPopped = true;
                               });
                             },
                             child: Text('Close'))
