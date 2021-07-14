@@ -45,6 +45,7 @@ class _EventState extends State<Event> {
   }
 
   List<Event_detail> events = [
+    
     Event_detail(
         "spooktecular.jpeg",
         "Spooktecular",

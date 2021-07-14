@@ -465,7 +465,7 @@ class _RotaryState extends State<Rotary> {
                                     'https://www.instagram.com/p/CCymeL_gJEv/');
                               },
                               child: Text(
-                                'Rotary Bangalore South East',
+                                'Rotary Bangalore Agneya',
                                 style: TextStyle(
                                   fontFamily: 'Bahnschrift',
                                   //sans can also be tried
@@ -480,7 +480,7 @@ class _RotaryState extends State<Rotary> {
                           ),
                           SizedBox(height: 50.0),
                           Text(
-                              "Rotary Bangalore South East (RBSE) is a club under the umbrella of Rotary International, a non-profit organization. Rotary International is perhaps the largest collection of organized volunteers in the world. Rotary International is divided into districts, which are then sub-divided into clubs.\nRBSE was chartered in the year 2000 as a Rotary club, a mark to begin the millennium. The club today, has 30 members and over the years executed thousands of non-profit projects along with its various youth wings.\nCurrently, the youth wings under RBSE are:",
+                              "Rotary Bangalore Agneya (RBA) is a club under the umbrella of Rotary International, a non-profit organization. Rotary International is perhaps the largest collection of organized volunteers in the world. Rotary International is divided into districts, which are then sub-divided into clubs.\nRBSE was chartered in the year 2000 as a Rotary club, a mark to begin the millennium. The club today, has 30 members and over the years executed thousands of non-profit projects along with its various youth wings.\nCurrently, the youth wings under RBSE are:",
                               style: GoogleFonts.poppins(
                                   // fontFamily: 'Bahnschrift',
                                   //sans can also be tried
@@ -647,7 +647,7 @@ class _RotaryState extends State<Rotary> {
                           ),
                           SizedBox(height: 50.0),
                           Text(
-                              "Rotaract Club of Bangalore BIT was founded in 2011. It is a part of global effort to bring peace and happiness though service, by the students of Bangalore Institute of Technology, with the support of Rotaract. It is affiliated to Rotary International District 3190 and it’s one of the most active clubs in the college which brings together students to take action in their communities, develop their leadership and professional skills. The club is sponsored by Rotary Bangalore South East, our parent Rotary Club. Our club gives an opportunity to connect with young leaders in the community, while simultaneously building personal skills.",
+                              "Rotaract Club of Bangalore BIT was founded in 2011. It is a part of global effort to bring peace and happiness though service, by the students of Bangalore Institute of Technology, with the support of Rotaract. It is affiliated to Rotary International District 3190 and it’s one of the most active clubs in the college which brings together students to take action in their communities, develop their leadership and professional skills. The club is sponsored by Rotary Bangalore Agneya, our parent Rotary Club. Our club gives an opportunity to connect with young leaders in the community, while simultaneously building personal skills.",
                               style: GoogleFonts.poppins(
                                   // fontFamily: 'Bahnschrift',
                                   //sans can also be tried

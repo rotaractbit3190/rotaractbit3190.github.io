@@ -40,6 +40,7 @@ class _HomePageState extends State<HomePage> {
     _scrollController.addListener(() {
       _scrollListener();
     });
+
     super.initState();
   }
 
@@ -52,6 +53,7 @@ class _HomePageState extends State<HomePage> {
 
   List _isHovering_people = [false, false];
   List _isHovering = [false, false, false, false, false, false, false];
+  bool isPoped = false;
   @override
   Widget build(BuildContext context) {
     var screenSize = MediaQuery.of(context).size;
@@ -60,6 +62,32 @@ class _HomePageState extends State<HomePage> {
     // print(screenSize.height*0.45);
     // print(screenSize.width);
     final themeChange = Provider.of<DarkThemeProvider>(context);
+    Future.delayed(
+        Duration.zero,
+        () => !isPoped
+            ? showDialog(
+                context: context,
+                builder: (context) => AlertDialog(
+                      title: Container(
+                          height: 600,
+                          width: 480,
+                          child:
+                              Center(child: Image.asset('Trade-itional.png'))),
+                      actions: [
+                        TextButton(
+                            onPressed: () {
+                              Navigator.of(context).pop();
+                              Navigator.of(context).pop();
+                              Navigator.of(context).pop();
+                              Navigator.of(context).pop();
+                              setState(() {
+                                isPoped = true;
+                              });
+                            },
+                            child: Text('Close'))
+                      ],
+                    ))
+            : null);
     return Scaffold(
       // extendBodyBehindAppBar: true,
       appBar: isScreenSmall
@@ -430,11 +458,12 @@ class _HomePageState extends State<HomePage> {
                     ],
                   ),
                   Padding(
-                    padding: EdgeInsets.symmetric(
-                        vertical: isScreenSmall
+                    padding: EdgeInsets.only(
+                        top: isScreenSmall
                             ? screenSize.height * 0.05
                             : screenSize.height * 0.1,
-                        horizontal: screenSize.width * 0.1),
+                        left: screenSize.width * 0.1,
+                        right: screenSize.width * 0.1),
                     child: Row(
                       mainAxisSize: MainAxisSize.max,
                       mainAxisAlignment: isScreenSmall
@@ -501,6 +530,7 @@ class _HomePageState extends State<HomePage> {
                   //     ),
                   //   ),
                   // ),
+
                   SizedBox(height: 50.0),
                   Container(
                     child: ImageCarousal(),
