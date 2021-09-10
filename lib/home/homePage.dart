@@ -62,32 +62,30 @@ class _HomePageState extends State<HomePage> {
     // print(screenSize.height*0.45);
     // print(screenSize.width);
     final themeChange = Provider.of<DarkThemeProvider>(context);
-    Future.delayed(
-        Duration.zero,
-        () => !isPopped
-            ? showDialog(
-                context: context,
-                builder: (context) => AlertDialog(
-                      title: Container(
-                          height: 600,
-                          width: 480,
-                          child:
-                              Center(child: Image.asset('Trade-itional.png'))),
-                      actions: [
-                        TextButton(
-                            onPressed: () {
-                              Navigator.of(context).pop();
-                              Navigator.of(context).pop();
-                              Navigator.of(context).pop();
-                              Navigator.of(context).pop();
-                              setState(() {
-                                isPopped = true;
-                              });
-                            },
-                            child: Text('Close'))
-                      ],
-                    ))
-            : null);
+    // Future.delayed(
+    //     Duration.zero,
+    //     () => !isPopped
+    //         ? showDialog(
+    //             context: context,
+    //             builder: (context) => AlertDialog(
+    //                   title: Container(
+    //                       height: 600,
+    //                       width: 480,
+    //                       child:
+    //                           Center(child: Image.asset('Trade-itional.png'))),
+    //                   actions: [
+    //                     TextButton(
+    //                         onPressed: () {
+    //                           Navigator.of(context).pop();
+
+    //                           setState(() {
+    //                             isPopped = true;
+    //                           });
+    //                         },
+    //                         child: Text('Close'))
+    //                   ],
+    //                 ))
+    //         : null);
     return Scaffold(
       // extendBodyBehindAppBar: true,
       appBar: isScreenSmall
@@ -573,7 +571,7 @@ class _HomePageState extends State<HomePage> {
                                       height: screenSize.height * 0.08,
                                       child: Center(
                                         child: Text(
-                                          'Rtn. K.S. Guruprasad',
+                                          'Rtn. SRIDHAR RAMAMURTHY',
                                           textAlign: TextAlign.start,
                                           style: GoogleFonts.monda(
                                               fontSize: 22.0,
@@ -669,7 +667,7 @@ class _HomePageState extends State<HomePage> {
                                       height: screenSize.height * 0.1,
                                       child: Center(
                                         child: Text(
-                                          'Rtn. K.S. Guruprasad',
+                                          'Rtn. SRIDHAR RAMAMURTHY',
                                           textAlign: TextAlign.start,
                                           style: GoogleFonts.monda(
                                               fontSize: 22.0,
