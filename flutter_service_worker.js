@@ -23,7 +23,7 @@ const RESOURCES = {
 "assets/assets/nithinkamath.png": "531ebf5b645e679837c59c684f9d2958",
 "assets/assets/BDC.jpeg": "d744a7b3a14abf65c45d2daa0f4e35c6",
 "assets/assets/NOTICES": "36955664d65089e1e5103329bc1930d5",
-"assets/assets/rotary_pres.jpg": "d112b6dca5fadd646772309f4ae7faca",
+"assets/assets/rotary_pres.jpg": "5f749b443c7b5a37f0f4292ee0e0a8c4",
 "assets/assets/assets/bgt.jpeg": "fb76f07269e054216148d0229ca36f34",
 "assets/assets/assets/spooktecular.jpeg": "e4756da07ce610eed3e857c45b631678",
 "assets/assets/assets/rotary_international.png": "428acbac11625687367b66387b88a9f4",
@@ -91,9 +91,9 @@ const RESOURCES = {
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
 "assets/AssetManifest.json": "e2498df4db6514f4488be25ac5916760",
 "assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
-"main.dart.js": "a6cc3f90394e5f20af19d69e2beb203b",
-"index.html": "440ccbd32540e309afef71b3909ede27",
-"/": "440ccbd32540e309afef71b3909ede27",
+"main.dart.js": "6b7c4af9f07dfca6d99fb260383faf25",
+"index.html": "ee7d65dcc1b88fb89af2c8f37e367063",
+"/": "ee7d65dcc1b88fb89af2c8f37e367063",
 "version.json": "51f5307a70eeaecafea930ecc355c168"
 };
 
