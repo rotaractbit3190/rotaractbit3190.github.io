@@ -72354,7 +72354,7 @@ this.d=s
 s=s.K$
 s.bp(s.c,new B.b7(new D.agH(this)),!1)
 this.aW()},
-J:function(c5,c6){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2=this,b3=null,b4="title_logo.png",b5="DashBoard",b6="Register",b7="rotary_pres.jpg",b8="Rtn. SRIDHAR RAMAMURTHY",b9="principal.jpg",c0="Rtn. Dr. Ashwath MU",c1=c6.N(t.w).f.a,c2=c1.a,c3=c2<800,c4=c1.b
+J:function(c5,c6){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2=this,b3=null,b4="title_logo.png",b5="DashBoard",b6="Register",b7="rotary_pres.jpg",b8="Rtn. Sridhar Ramamurthy",b9="principal.jpg",c0="Rtn. Dr. Ashwath MU",c1=c6.N(t.w).f.a,c2=c1.a,c3=c2<800,c4=c1.b
 b2.e=b2.f<c4*0.4?0.75:1
 s=Y.i8(c6,t.l)
 if(c3){r=U.aC(b4,C.ay,c4*0.08,b3,b3)
@@ -72436,14 +72436,14 @@ a0=c2*0.7
 a1=T.H(U.aC(b7,b3,a,b3,a0),b3,b3)
 a2=c?C.af:C.m
 a3=c4*0.08
-d=R.ad(!1,!0,V.eR(T.aw(H.b([a1,M.a7(b3,T.cF(L.n(b8,b3,b3,b3,B.qO(c?C.n:C.f.h(0,900),22),C.X,b3),b3,b3),C.i,a2,b3,b3,b3,a3,b3,b3,b3,b3,a0)],k),C.o,C.p,C.k),b3,d,b),b3,!0,b3,b3,b3,b3,b3,b3,b3,new D.agr(b2),b3,new D.ags(),b3,b3,b3)
+d=R.ad(!1,!0,V.eR(T.aw(H.b([a1,M.a7(b3,T.cF(L.n(b8,b3,b3,b3,B.qO(c?C.n:C.f.h(0,900),20),C.X,b3),b3,b3),C.i,a2,b3,b3,b3,a3,b3,b3,b3,b3,a0)],k),C.o,C.p,C.k),b3,d,b),b3,!0,b3,b3,b3,b3,b3,b3,b3,new D.agr(b2),b3,new D.ags(),b3,b3,b3)
 b=T.H(b3,c4*0.01,b3)
 e=e[0]?20:0
 c=s.b
 a1=c?C.af:C.m
 a=T.H(U.aC(b9,b3,a,b3,a0),b3,b3)
 a2=c?C.af:C.m
-e=T.aw(H.b([d,b,R.ad(!1,!0,V.eR(T.aw(H.b([a,M.a7(b3,T.cF(L.n(c0,b3,b3,b3,B.qO(c?C.n:C.f.h(0,900),22),C.X,b3),b3,b3),C.i,a2,b3,b3,b3,a3,b3,b3,b3,b3,a0)],k),C.o,C.p,C.k),b3,e,a1),b3,!0,b3,b3,b3,b3,b3,b3,b3,new D.agt(b2),b3,new D.agu(),b3,b3,b3)],k),C.o,C.bk,C.dz)}else{e=b2.r
+e=T.aw(H.b([d,b,R.ad(!1,!0,V.eR(T.aw(H.b([a,M.a7(b3,T.cF(L.n(c0,b3,b3,b3,B.qO(c?C.n:C.f.h(0,900),20),C.X,b3),b3,b3),C.i,a2,b3,b3,b3,a3,b3,b3,b3,b3,a0)],k),C.o,C.p,C.k),b3,e,a1),b3,!0,b3,b3,b3,b3,b3,b3,b3,new D.agt(b2),b3,new D.agu(),b3,b3,b3)],k),C.o,C.bk,C.dz)}else{e=b2.r
 d=e[0]?20:0
 c=s.b
 b=c?C.af:C.m
@@ -72452,13 +72452,13 @@ a0=c2*0.2
 a1=T.H(U.aC(b7,C.S,a,b3,a0),b3,b3)
 a2=c?C.af:C.m
 a3=c4*0.1
-d=R.ad(!1,!0,V.eR(T.aw(H.b([a1,M.a7(b3,T.cF(L.n(b8,b3,b3,b3,B.qO(c?C.n:C.f.h(0,900),22),C.X,b3),b3,b3),C.i,a2,b3,b3,b3,a3,b3,b3,b3,b3,a0)],k),C.o,C.p,C.k),b3,d,b),b3,!0,b3,b3,b3,b3,b3,b3,b3,new D.agv(b2),b3,new D.agx(),b3,b3,b3)
+d=R.ad(!1,!0,V.eR(T.aw(H.b([a1,M.a7(b3,T.cF(L.n(b8,b3,b3,b3,B.qO(c?C.n:C.f.h(0,900),20),C.X,b3),b3,b3),C.i,a2,b3,b3,b3,a3,b3,b3,b3,b3,a0)],k),C.o,C.p,C.k),b3,d,b),b3,!0,b3,b3,b3,b3,b3,b3,b3,new D.agv(b2),b3,new D.agx(),b3,b3,b3)
 e=e[1]?20:0
 c=s.b
 b=c?C.af:C.m
 a=T.H(U.aC(b9,C.S,a,b3,a0),b3,b3)
 a1=c?C.af:C.m
-e=T.bn(H.b([d,R.ad(!1,!0,V.eR(T.aw(H.b([a,M.a7(b3,T.cF(L.n(c0,b3,b3,b3,B.qO(c?C.n:C.f.h(0,900),22),C.X,b3),b3,b3),C.i,a1,b3,b3,b3,a3,b3,b3,b3,b3,a0)],k),C.o,C.p,C.k),b3,e,b),b3,!0,b3,b3,b3,b3,b3,b3,b3,new D.agy(b2),b3,new D.agz(),b3,b3,b3)],k),C.o,C.bk,C.k)}d=T.H(b3,c4*0.1,b3)
+e=T.bn(H.b([d,R.ad(!1,!0,V.eR(T.aw(H.b([a,M.a7(b3,T.cF(L.n(c0,b3,b3,b3,B.qO(c?C.n:C.f.h(0,900),20),C.X,b3),b3,b3),C.i,a1,b3,b3,b3,a3,b3,b3,b3,b3,a0)],k),C.o,C.p,C.k),b3,e,b),b3,!0,b3,b3,b3,b3,b3,b3,b3,new D.agy(b2),b3,new D.agz(),b3,b3,b3)],k),C.o,C.bk,C.k)}d=T.H(b3,c4*0.1,b3)
 c=c4*0.05
 b=L.n("Theme",b3,b3,b3,B.bx(s.b?C.bK.h(0,400):C.af,44,b3,b3),C.X,b3)
 a=c4*0.01

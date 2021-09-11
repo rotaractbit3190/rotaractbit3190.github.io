@@ -91,9 +91,9 @@ const RESOURCES = {
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
 "assets/AssetManifest.json": "e2498df4db6514f4488be25ac5916760",
 "assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
-"main.dart.js": "6b7c4af9f07dfca6d99fb260383faf25",
-"index.html": "ee7d65dcc1b88fb89af2c8f37e367063",
-"/": "ee7d65dcc1b88fb89af2c8f37e367063",
+"main.dart.js": "691048c249d77b0155ccc39f35769676",
+"index.html": "ddda809b20fb4e998be432b47e8515fe",
+"/": "ddda809b20fb4e998be432b47e8515fe",
 "version.json": "51f5307a70eeaecafea930ecc355c168"
 };
 
